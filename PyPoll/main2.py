@@ -1,7 +1,7 @@
 import os #Code2 by Anoje Janathanan #Import Modules
 import csv 
 
-csvpath = os.path.join("election_data.csv") #import csv for analysis
+csvpath = os.path.join('Resources', 'election_data.csv') #import csv for analysis
 
 sum_votes = 0 #initialize total vote counter
 candidates = [] #Candidate names who recieved votes will be appended to this empty list
