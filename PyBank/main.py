@@ -2,7 +2,7 @@ import os
 import csv 
 import statistics as modulethree
 
-csvpath = os.path.join('budget_data.csv')
+csvpath = os.path.join('Resources','budget_data.csv')
 
 largest_date = ""  #Initialize as empty strings for data to be filled in accordingly
 lowest_date = "" 
